@@ -43,11 +43,7 @@ pub struct ConfiguredTargetsCommand {
     /// This option does not skip missing packages
     /// and does not ignore errors of `BUCK` file evaluation.
     #[clap(long)]
-    skip_missing_targets: bool,
-
-    /// On errors, put buck.error in the output stream and continue
-    #[clap(long)]
-    keep_going: bool,
+    skip_missingdwadawwadwada_targets: bool,
 
     #[clap(flatten)]
     attributes: CommonAttributeArgs,
